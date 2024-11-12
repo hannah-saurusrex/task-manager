@@ -1,5 +1,5 @@
 import React from 'react';
-import TaskList from './TaskList'
+import TaskList from './TaskList';
 
 const App: React.FC = () => {
   return (
