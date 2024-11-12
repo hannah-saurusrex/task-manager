@@ -46,6 +46,7 @@ const TaskList: React.FC = () => {
               {task.isCompleted ? 'Mark Incomplete' : 'Mark Complete'}
             </button>
             <button onClick={() => handleDeleteTask(task.id)}>Delete</button>
+            <p>testing</p>
           </li>
         ))}
       </ul>
